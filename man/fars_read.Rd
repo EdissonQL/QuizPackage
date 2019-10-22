@@ -18,6 +18,8 @@ The function validates if the file exists but id doesn't show the progress when 
 loaded from the file.
 }
 \examples{
+\dontrun{
 df <- fars_read("./data/data2015.csv")
+}
 
 }

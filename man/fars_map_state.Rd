@@ -23,6 +23,8 @@ It this functions from other packages:
 	graphics::points
 }
 \examples{
+\dontrun{
 fars_map_state(37,2015)
+}
 
 }

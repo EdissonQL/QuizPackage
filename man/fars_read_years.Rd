@@ -18,7 +18,9 @@ It validates if every file exists and shows an error if it doesn't exists.
 It uses mutate and select functions from dplyr package
 }
 \examples{
+\dontrun{
 fars_read_years(c(2013,2014,2015))
+}
 
 }
 \seealso{

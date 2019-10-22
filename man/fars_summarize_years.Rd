@@ -18,6 +18,8 @@ It uses bind_rows, group_by and summarize functions from dplyr package.
 It uses spread function from tidyr package.
 }
 \examples{
+\dontrun{
 fars_summarize_years(c(2013,2014,2015))
+}
 
 }
