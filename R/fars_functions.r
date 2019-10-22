@@ -13,7 +13,9 @@
 #' @return if the file exists, the function returns a data frame with the data read
 #'
 #' @examples
+#' \dontrun{
 #' df <- fars_read("./data/data2015.csv")
+#' }
 #'
 #' @export
 fars_read <- function(filename) {
@@ -58,7 +60,9 @@ make_filename <- function(year) {
 #' @return A data frame with the
 #'
 #' @examples
+#' \dontrun{
 #' fars_read_years(c(2013,2014,2015))
+#' }
 #'
 #' @seealso \code{\link{fars_read}}
 #' @seealso \code{\link{make_filename}}
@@ -95,7 +99,9 @@ fars_read_years <- function(years) {
 #' @return A data frame with the summary
 #'
 #' @examples
+#' \dontrun{
 #' fars_summarize_years(c(2013,2014,2015))
+#' }
 #'
 #' @export
 fars_summarize_years <- function(years) {
@@ -127,7 +133,9 @@ fars_summarize_years <- function(years) {
 #' @return A map with points of every accident for the state.num indicated for the year specified.
 #'
 #' @examples
+#' \dontrun{
 #' fars_map_state(37,2015)
+#' }
 #'
 #' @export
 fars_map_state <- function(state.num, year) {
