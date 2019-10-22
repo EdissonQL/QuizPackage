@@ -1,0 +1,24 @@
+---
+title: "Details for QuizPackage"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Details for QuizPackage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(QuizPackage)
+```
+
+```{description}
+This package is just built for evaluation porpuses.
+It has a few functions in order to the quiz.
+```
